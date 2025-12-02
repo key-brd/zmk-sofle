@@ -734,10 +734,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -1183,10 +1182,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -1615,10 +1613,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -2033,10 +2030,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -2500,10 +2496,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -2918,10 +2913,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -3342,10 +3336,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -3778,10 +3771,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -3799,8 +3791,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3106)" class="layer-&lt;&amp;scroll_encoder&gt;">
-<text x="0" y="28" class="label" id="scroll_encoder">&lt;&amp;scroll_encoder&gt;:</text>
+<g transform="translate(40, 3106)" class="layer-Numpad">
+<text x="0" y="28" class="label" id="Numpad">Numpad:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -4231,10 +4223,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -4658,10 +4649,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -5100,10 +5090,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
@@ -5544,10 +5533,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em" style="font-size: 60%">&lt;&amp;</tspan><tspan x="644" dy="1.2em" style="font-size: 60%">scroll_en…</tspan>
-</text>
-<text x="644" y="214" class="combo hold">toggle</text>
+<a href="#Numpad">
+<text x="644" y="203" class="combo tap layer-activator">Numpad</text>
+</a><text x="644" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
 <path d="M168,95 l-66,14" class="combo"/>
