@@ -157,16 +157,13 @@
         };
 
         qwerty {
-            timeout-ms = <0>;
             bindings = <&to 0>;
-            key-positions = <53 63>;    // hit QWER together to set HRM as default (layer 4)
+            key-positions = <53 63>;    // hit QWER together to set HRM as default (layer 0)
         };
 
         qwerty_to_hrm {
-            timeout-ms = <0>;
             bindings = <&to 4>;
-            key-positions = <54 62>;    // hit WERT together to reset QWERTY as default (layer 0)
-            layers = <4>;
+            key-positions = <54 62>;    // hit WERT together to reset QWERTY as default (layer 4)
         };
     };
 
