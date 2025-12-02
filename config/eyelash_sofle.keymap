@@ -252,7 +252,7 @@
             >;
 
             label = "Rgb";
-            sensor-bindings = <&rgb_encoder &scroll_encoder>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         Mouse {
