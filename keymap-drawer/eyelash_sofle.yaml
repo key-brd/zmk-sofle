@@ -809,7 +809,8 @@ combos:
   k: {t: Modify, h: toggle}
 - p: [46, 47]
   k: {t: Numpad, h: toggle}
-- p: [14, 15, 16, 17]
+- p: [53, 63]
   k: {t: LAYER0, h: toggle}
-- p: [15, 16, 17, 18]
+- p: [54, 62]
   k: {t: QW-HRM, h: toggle}
+  l: [QW-HRM]
