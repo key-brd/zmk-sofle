@@ -68,6 +68,17 @@
             tapping-term-ms = <135>;
             quick-tap-ms = <0>;
         };
+
+        qwerty: set_qwerty {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SET_QWERTY";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <180>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -229,11 +240,11 @@
 
         Navi {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
+&qwerty 4 ESC  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
+&trans         &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans         &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans         &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
+&trans         &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
             >;
 
             display-name = "Navi";
@@ -279,11 +290,11 @@
 
         Flash {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &to 0
-&none  &none  &none  &none  &none  &none    &none  &none         &none         &none         &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none  &none         &none         &none         &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none  &bt BT_CLR    &none         &none         &none         &none         &bt BT_CLR_ALL
-&none  &none  &none  &none  &none  &none    &none  &none         &none         &none         &none         &none
+&trans  &none  &none  &none  &none  &none    &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &to 0
+&none   &none  &none  &none  &none  &none    &none  &none         &none         &none         &none         &none         &none
+&none   &none  &none  &none  &none  &none    &none  &none         &none         &none         &none         &none         &none
+&none   &none  &none  &none  &none  &none    &none  &bt BT_CLR    &none         &none         &none         &none         &bt BT_CLR_ALL
+&none   &none  &none  &none  &none  &none    &none  &none         &none         &none         &none         &none
             >;
 
             display-name = "Flash";
@@ -291,11 +302,11 @@
 
         Rgb {
             bindings = <
-&none  &none  &none  &none  &none            &rgb_ug RGB_SPI    &rgb_ug RGB_HUI  &rgb_ug RGB_SPD  &none            &none  &none  &none  &to 0
-&none  &none  &none  &none  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR    &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &none  &none  &none  &none
-&none  &none  &none  &none  &none            &none              &rgb_ug RGB_SAI  &none            &none            &none  &none  &none  &none
-&none  &none  &none  &none  &none            &none              &rgb_ug RGB_SAD  &none            &none            &none  &none  &none  &none
-&to 0  &none  &none  &none  &none            &none              &rgb_ug RGB_TOG  &none            &none            &none  &none  &none
+&trans  &none  &none  &none  &none            &rgb_ug RGB_SPI    &rgb_ug RGB_HUI  &rgb_ug RGB_SPD  &none            &none  &none  &none  &to 0
+&none   &none  &none  &none  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR    &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &none  &none  &none  &none
+&none   &none  &none  &none  &none            &none              &rgb_ug RGB_SAI  &none            &none            &none  &none  &none  &none
+&none   &none  &none  &none  &none            &none              &rgb_ug RGB_SAD  &none            &none            &none  &none  &none  &none
+&to 0   &none  &none  &none  &none            &none              &rgb_ug RGB_TOG  &none            &none            &none  &none  &none
             >;
 
             display-name = "Rgb";
@@ -304,7 +315,7 @@
 
         Mouse {
             bindings = <
-&to 0   &none       &none       &none        &none        &none        &mmv MOVE_UP     &none      &to 0           &none           &none            &trans          &to 0
+&trans  &none       &none       &none        &none        &none        &mmv MOVE_UP     &none      &to 0           &none           &none            &trans          &to 0
 &trans  &kp Q       &kp W       &kp E        &kp R        &kp T        &mmv MOVE_DOWN   &mkp MB3   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP    &trans
 &trans  &hm LWIN A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G        &mmv MOVE_LEFT   &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans
 &trans  &kp Z       &kp X       &kp C        &kp V        &kp B        &mmv MOVE_RIGHT  &mkp MB5   &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &trans          &trans
