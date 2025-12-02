@@ -236,7 +236,7 @@
 &trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
             >;
 
-            label = "Navi";
+            display-name = "Navi";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -249,7 +249,7 @@
 &trans  &trans           &trans        &trans    &trans      &trans            &trans  &trans     &trans           &trans                          &trans                &trans
             >;
 
-            label = "Symbol";
+            display-name = "Symbol";
         };
 
         Modify {
@@ -261,7 +261,7 @@
 &trans     &trans        &trans        &trans     &trans     &trans            &trans  &trans           &trans           &trans             &trans         &trans
             >;
 
-            label = "Modify";
+            display-name = "Modify";
         };
 
         Numpad {
@@ -273,10 +273,8 @@
 &none   &trans  &trans    &trans        &trans         &trans    &trans  &trans      &trans           &kp N0           &trans           &kp DOT
             >;
 
-            display-name =
-                "Numpad";
-            sensor-bindings =,
-                <&scroll_encoder>;
+            display-name = "Numpad";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         Flash {
@@ -300,7 +298,7 @@
 &to 0   &trans  &trans  &trans  &trans           &trans             &rgb_ug RGB_TOG  &trans           &trans           &trans  &trans  &trans
             >;
 
-            label = "Rgb";
+            display-name = "Rgb";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -313,7 +311,7 @@
 &trans  &trans      &trans      &trans       &mkp LCLK    &mkp RCLK    &to 0            &mkp LCLK  &mkp RCLK       &trans          &trans           &trans
             >;
 
-            label = "Mouse";
+            display-name = "Mouse";
             sensor-bindings = <&scroll_encoder>;
         };
     };
