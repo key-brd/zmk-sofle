@@ -147,13 +147,13 @@
 
         qwerty {     
             timeout-ms = <50>;
-            bindings = <&default 0>;
+            bindings = <&to 0>;
             key-positions = <14 15 16 17>;    // hit QWER together to set HRM as default (layer 4)
         };
 
         qwerty_to_hrm {     
             timeout-ms = <50>;
-            bindings = <&default 4>;
+            bindings = <&to 4>;
             key-positions = <15 16 17 18>;    // hit WERT together to reset QWERTY as default (layer 0)
         };
 
