@@ -813,4 +813,3 @@ combos:
   k: {t: LAYER0, h: toggle}
 - p: [54, 62]
   k: {t: QW-HRM, h: toggle}
-  l: [QW-HRM]

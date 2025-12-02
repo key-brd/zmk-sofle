@@ -746,6 +746,14 @@ rect.held, rect.combo.held {
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-LAYER1">
@@ -1188,6 +1196,14 @@ rect.held, rect.combo.held {
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-layer2">
@@ -1613,6 +1629,14 @@ rect.held, rect.combo.held {
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-layer3">
@@ -2023,6 +2047,14 @@ rect.held, rect.combo.held {
 <a href="#LAYER0">
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2905,6 +2937,14 @@ rect.held, rect.combo.held {
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-Symbol">
@@ -3321,6 +3361,14 @@ rect.held, rect.combo.held {
 <a href="#LAYER0">
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -3750,6 +3798,14 @@ rect.held, rect.combo.held {
 <a href="#LAYER0">
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -4197,6 +4253,14 @@ rect.held, rect.combo.held {
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 3494)" class="layer-Flash">
@@ -4616,6 +4680,14 @@ rect.held, rect.combo.held {
 <a href="#LAYER0">
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -5054,6 +5126,14 @@ rect.held, rect.combo.held {
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 4271)" class="layer-Mouse">
@@ -5488,6 +5568,14 @@ rect.held, rect.combo.held {
 <a href="#LAYER0">
 <text x="462" y="259" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-15">
+<path d="M462,252 l-247,0" class="combo"/>
+<path d="M462,252 l247,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="239" width="28" height="26" class="combo"/>
+<a href="#QW-HRM">
+<text x="462" y="252" class="combo tap layer-activator">QW-HRM</text>
+</a><text x="462" y="263" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
