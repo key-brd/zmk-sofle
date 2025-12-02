@@ -810,6 +810,6 @@ combos:
 - p: [46, 47]
   k: {t: Numpad, h: toggle}
 - p: [14, 15, 16, 17]
-  k: '&default'
+  k: {t: LAYER0, h: toggle}
 - p: [15, 16, 17, 18]
-  k: '&default 4'
+  k: {t: QW-HRM, h: toggle}
