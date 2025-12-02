@@ -274,7 +274,7 @@
             >;
 
             display-name =
-                'Numpad";
+                "Numpad";
             sensor-bindings =,
                 <&scroll_encoder>;
         };
