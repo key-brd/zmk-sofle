@@ -557,3 +557,5 @@ combos:
   k: {t: Mouse, h: toggle}
 - p: [54, 62]
   k: {t: Flash, h: toggle}
+- p: [53, 63]
+  k: {t: Rgb, h: toggle}
