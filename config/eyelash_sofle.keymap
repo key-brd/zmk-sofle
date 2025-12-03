@@ -6,7 +6,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -137,22 +136,22 @@
         };
 
         toggle_symbol {
-            bindings = <&tog 6>;
+            bindings = <&tog 2>;
             key-positions = <57 59>;
         };
 
         toggle_navi {
-            bindings = <&tog 5>;
+            bindings = <&tog 1>;
             key-positions = <55 61>;
         };
 
         toggle_modify {
-            bindings = <&tog 7>;
+            bindings = <&tog 3>;
             key-positions = <56 60>;
         };
 
         toggle_Numpad {
-            bindings = <&tog 8>;
+            bindings = <&tog 4>;
             key-positions = <46 47>;
         };
 
@@ -160,67 +159,10 @@
             bindings = <&to 0>;
             key-positions = <53 63>;    // hit QWER together to set HRM as default (layer 0)
         };
-
-        qwerty_to_hrm {
-            bindings = <&to 4>;
-            key-positions = <54 62>;    // hit WERT together to reset QWERTY as default (layer 4)
-        };
     };
 
     keymap {
         compatible = "zmk,keymap";
-
-        layer0 {
-            bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
-        };
-
-        layer_1 {
-            bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
-            >;
-
-            display-name = "LAYER1";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_2 {
-            bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
-            >;
-
-            display-name = "layer2";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            display-name = "layer3";
-            sensor-bindings = <&scroll_encoder>;
-        };
 
         QW-HRM {
             bindings = <
@@ -228,7 +170,7 @@
 &as TILDE GRAVE  &kp Q           &kp W           &kp E               &kp R             &kp T           &kp DOWN_ARROW   &kp Y         &kp U              &kp I                &kp O                    &kp P                    &as PLUS EQUAL
 &kp CAPSLOCK     &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G           &kp LEFT_ARROW   &kp H         &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &hm RIGHT_GUI SEMICOLON  &as DOUBLE_QUOTES SQT
 &kp LSHFT        &kp Z           &kp X           &kp C               &kp V             &kp B           &kp RIGHT_ARROW  &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH       &hm RIGHT_GUI ENTER
-&to 5            &kp LCTRL       &kp LALT        &ltq 5 BACKSPACE    &ltq 7 TAB        &ltq 6 SPACE    &to 6            &ltq 6 SPACE  &ltq 7 ENTER       &ltq 5 DELETE        &kp RALT                 &kp RCTRL
+&to 1            &kp LCTRL       &kp LALT        &ltq 1 BACKSPACE    &ltq 3 TAB        &ltq 2 SPACE    &to 2            &ltq 2 SPACE  &ltq 3 ENTER       &ltq 1 DELETE        &kp RALT                 &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -237,7 +179,7 @@
 
         Navi {
             bindings = <
-&qwerty 4 ESC  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
+&qwerty 0 ESC  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
 &trans         &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans         &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans         &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
@@ -329,7 +271,7 @@
 
         Flash {
             if-layers = <2 3>;
-            then-layer = <4>;
+            then-layer = <0>;
         };
     };
 };
