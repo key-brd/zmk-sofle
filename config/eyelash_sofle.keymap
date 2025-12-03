@@ -135,23 +135,23 @@
             key-positions = <31 33>;
         };
 
-        st_symbol {
-            bindings = <&sl 2>;
+        tog_symbol {
+            bindings = <&tog 2>;
             key-positions = <57 59>;
         };
 
-        sl_navi {
-            bindings = <&sl 1>;
+        tog_navi {
+            bindings = <&tog 1>;
             key-positions = <55 61>;
         };
 
-        sl_modify {
-            bindings = <&sl 3>;
+        tog_modify {
+            bindings = <&tog 3>;
             key-positions = <56 60>;
         };
 
-        sl_Numpad {
-            bindings = <&sl 4>;
+        tog_Numpad {
+            bindings = <&tog 4>;
             key-positions = <46 47>;
         };
 
@@ -160,18 +160,23 @@
             key-positions = <40 50>;    // hit QWER together to set HRM as default (layer 0)
         };
 
-        sl_mouse {
-            bindings = <&sl 7>;
+        tog_mouse_r {
+            bindings = <&tog 7>;
             key-positions = <50 49>;
         };
 
-        sl_flash {
-            bindings = <&sl 5>;
+        tog_mouse_l {
+            bindings = <&tog 7>;
+            key-positions = <41 42>;
+        };
+
+        tog_flash {
+            bindings = <&tog 5>;
             key-positions = <54 62>;
         };
 
-        sl_rgb {
-            bindings = <&sl 6>;
+        tog_rgb {
+            bindings = <&tog 6>;
             key-positions = <53 63>;
         };
     };
