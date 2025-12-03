@@ -174,11 +174,6 @@
             bindings = <&tog 5>;
             key-positions = <54 62>;
         };
-
-        tog_rgb {
-            bindings = <&tog 6>;
-            key-positions = <53 63>;
-        };
     };
 
     keymap {
@@ -200,9 +195,9 @@
         layer1 {
             bindings = <
 &qwerty 0 ESC  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
-&trans         &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans         &trans        &trans        &trans            &trans          &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans  &trans
 &trans         &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans         &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
+&trans         &trans        &trans        &trans            &trans          &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &kp END         &trans          &kp PAGE_DOWN    &trans  &trans
 &trans         &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
             >;
 
