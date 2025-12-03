@@ -71,8 +71,8 @@ layers:
   - F2
   - F3
   - F4
-  - F4
   - F5
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
@@ -136,8 +136,8 @@ layers:
   - F2
   - F3
   - F4
-  - F4
   - F5
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
