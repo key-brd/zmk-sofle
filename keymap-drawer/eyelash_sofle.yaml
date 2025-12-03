@@ -121,13 +121,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
@@ -188,9 +188,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -252,11 +252,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -307,8 +307,8 @@ layers:
   - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HOME, type: held}
-  - {t: KP 1, type: held}
+  - HOME
+  - KP 1
   - KP 2
   - KP 3
   - END
@@ -380,7 +380,7 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -388,7 +388,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Rgb:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -444,7 +444,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: QW-HRM, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -454,7 +454,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -505,8 +505,8 @@ layers:
   - '&mkp MB5'
   - $$mdi:pan-left$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:pan-right$$', type: held}
-  - {type: held}
+  - $$mdi:pan-right$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -542,18 +542,20 @@ combos:
 - p: [31, 33]
   k: '|'
 - p: [57, 59]
-  k: {t: Symbol, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Symbol, h: toggle}
 - p: [55, 61]
-  k: {t: Navi, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Navi, h: toggle}
 - p: [56, 60]
-  k: {t: Modify, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Modify, h: toggle}
 - p: [46, 47]
-  k: {t: Numpad, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Numpad, h: toggle}
 - p: [40, 50]
   k: {t: QW-HRM, h: toggle}
 - p: [50, 49]
-  k: {t: Mouse, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Mouse, h: toggle}
+- p: [41, 42]
+  k: {t: Mouse, h: toggle}
 - p: [54, 62]
-  k: {t: Flash, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Flash, h: toggle}
 - p: [53, 63]
-  k: {t: Rgb, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: Rgb, h: toggle}
